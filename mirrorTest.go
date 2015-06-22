@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/xvo202/stringutil"
+)
 
 func main() {
-	fmt.Pringf("MirrorTest)
+	fmt.Printf(stringutil.Reverse("!oG ,olleH"))
 }
